@@ -14,27 +14,16 @@
       <p><b>Ping Pong Score Keeper</b></p>
     </div>
     <div id="display">
-      <p>0 to 0</p>
+      <p><span id="playerOne">0</span> to <span id="playerTwo">0</span></p>
       <p>Use the buttons below to update the score:</p>
       <p>
         Playing to
-        <select id='score'>
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-        </select>
+        <select id="score"></select>
       </p>
     </div>
     <div id="buttons">
-      <button id="player1score">+1 Player One</button>
-      <button id="player2score">+1 Player Two</button>
+      <button id="addOnePlayerOne">+1 Player One</button>
+      <button id="addOnePlayerTwo">+1 Player Two</button>
       <button id="reset">Reset</button>
     </div>
 
